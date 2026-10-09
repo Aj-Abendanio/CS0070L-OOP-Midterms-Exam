@@ -1,6 +1,7 @@
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+// represents a hobby task.
 public class HobbyTask extends Task {
     public HobbyTask(String title, LocalTime startTime, LocalTime endTime) {
         super(title, startTime, endTime);

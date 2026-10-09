@@ -4,6 +4,7 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// runs planner menu and handles user input.
 public class PlannerApp {
     private DailyPlanner planner;
     private ScheduleStorage storage;
@@ -241,7 +242,7 @@ public class PlannerApp {
         try {
             return LocalTime.parse(input, timeFormatter);
         } catch (DateTimeParseException e) {
-            System.out.println("Invalid time. Use HH:mm format, such as 09:30.");
+            System.out.println("Invalid time. Use HH:mm format [09:30]");
             return null;
         }
     }

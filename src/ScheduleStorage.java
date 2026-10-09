@@ -8,6 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 
+// saves and loads tasks from a text file
 public class ScheduleStorage {
     private static final String FILE_NAME = "schedule.txt";
     private static final DateTimeFormatter TIME_FORMAT =
@@ -71,12 +72,12 @@ public class ScheduleStorage {
                     }
 
                 } catch (IllegalArgumentException | DateTimeParseException e) {
-                    // Skip malformed lines.
+                    // skip incorrect lines.
                 }
             }
 
         } catch (IOException e) {
-            // Return an empty list if the file does not exist.
+            // returns empty list if no file
         }
 
         return tasks;

@@ -1,5 +1,6 @@
 import java.util.Random;
 
+// gives a random motivational message
 public class MotivationGenerator {
     private final String[] messages = {
             "Small progress is still progress.",

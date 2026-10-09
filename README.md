@@ -9,3 +9,24 @@ A Java console application that lets you plan your day across fourcategories (Co
 - Show free time within a planning window you choose
 - Random motivational messages
 - Saves to and loads from schedule.txt automatically
+
+# Compile and Run (Windows)
+1. Open **Command Prompt** or **PowerShell**.
+2. Change to the project folder. Replace the example path with your actual project location:
+
+   ```powershell
+   cd "C:\Users\YourName\Desktop\Programming\Java Midterm Lab"
+   ```
+
+3. Compile the Java files into an `out` folder:
+
+   ```powershell
+   New-Item -ItemType Directory -Force out
+   javac -d out Schedulable.java Task.java CollegeTask.java CareerTask.java HobbyTask.java ChoreTask.java DailyPlanner.java ScheduleStorage.java MotivationGenerator.java PlannerApp.java
+   ```
+
+4. Run the application:
+
+   ```powershell
+   java -cp out PlannerApp
+   ```

@@ -1,6 +1,7 @@
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+// represents a chore task
 public class ChoreTask extends Task {
     public ChoreTask(String title, LocalTime startTime, LocalTime endTime) {
         super(title, startTime, endTime);

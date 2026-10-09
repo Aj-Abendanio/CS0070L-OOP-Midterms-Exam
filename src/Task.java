@@ -1,6 +1,7 @@
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+// holds the shared details and behavior for all task types.
 public abstract class Task implements Schedulable {
     private String title;
     private LocalTime startTime;

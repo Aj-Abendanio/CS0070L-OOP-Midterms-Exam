@@ -1,6 +1,7 @@
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
+// represents college related task
 public class CollegeTask extends Task {
     public CollegeTask(String title, LocalTime startTime, LocalTime endTime) {
         super(title, startTime, endTime);

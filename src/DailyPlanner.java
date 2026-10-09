@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
 
+// manages tasks in the daily schedule.
 public class DailyPlanner {
     private ArrayList<Task> tasks;
 

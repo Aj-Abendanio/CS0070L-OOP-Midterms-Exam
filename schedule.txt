@@ -1,0 +1,3 @@
+CAREER|Practice Coding|10:00|11:00
+HOBBY|Build Gunpla Backlog|13:00|14:00
+CHORES|Clean my desk|16:00|17:00
